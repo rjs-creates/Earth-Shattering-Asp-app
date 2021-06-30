@@ -1,0 +1,25 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Label SkinID="Divider" runat="server" BackColor="#66CCFF" BorderColor="#000066" BorderStyle="Double" BorderWidth="2px" CssClass="center" Font-Names="ranchers, comics sans" ForeColor="White" Width="100%"></asp:Label>
+
+<asp:LinkButton SkinId="linker" runat="server" BackColor="#FF9933" BorderColor="Black" BorderStyle="Dotted" BorderWidth="2px" Font-Names="cherry cream soda" Font-Overline="True" Font-Size="X-Large"></asp:LinkButton>
+    <asp:DropDownList  runat="server"></asp:DropDownList>
+    <asp:TextBox  runat="server"></asp:TextBox>
+    <asp:Button  runat="server"  Text="filter"  Width="85px" />
+    <asp:Table  SkinID="table"  BorderColor="Black" BorderStyle="Solid" runat="server" GridLines="Both" Width="28px" class="center" >
+</asp:Table>
+<asp:TableCell runat="server"  Font-Size = "XX-Large"></asp:TableCell>
